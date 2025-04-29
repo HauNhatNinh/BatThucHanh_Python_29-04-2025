@@ -1,3 +1,8 @@
+# Bài 1: 
+# Thực hiện lấy dữ liệu thời tiết từ url sau: https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&past_days=10&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m
+# Yêu cầu:
+# + Lấy thông tin dữ liệu các trường: latitude, longitude, time, temperature_2m, relative_humidity_2m, wind_speed_10m và lưu vào một file .csv
+# + Dựa vào dữ liệu đã lấy được đó. Hãy thực hiện tính tổng các giá trị của temperature_2m, relative_humidity_2m, wind_speed_10m từ đầu đến ngày 29-04
 import requests
 import pandas as pd
 from datetime import datetime
