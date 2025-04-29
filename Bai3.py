@@ -1,3 +1,44 @@
+# Bài 3: 
+# Tạo một chương trình thực hiện quản lý danh sách sinh viên lớp học (danh sách chính là danh sách các thành viên đi thực hành buổi học hôm nay) sử dụng OOP với các lớp như: Student, Family.
+# (Student sẽ bao gồm các thông tin về: Họ tên, MSSV, Lớp, SĐT, Ngày sinh, địa chỉ
+# Family sẽ bao gồm các thông tin của Student và thêm một số trường thông tin khác như: Địa chỉ gia đình, họ tên bố, mẹ - điền bừa)
+# Yêu cầu:
+# - Hệ thống cho phép thêm, sửa, xóa thông tin, cập nhật thông tin của Student hoặc Family.
+# - Dữ liệu sẽ được lưu dưới dạng một file JSON với cấu trúc như sau:
+# [
+#     {
+#         "id": 1,
+#         "Thông tin sinh viên": [
+#         	"Họ tên": ...,
+#         	"MSSV": ...,
+#         	"Lớp": ...,
+#         	"SĐT": ...,
+#         	"Ngày sinh": ...,
+#         	"Địa chỉ hiện tại": ...
+#         ],
+#         "Thông tin gia đình": [
+#         	"Địa chỉ gia đình": ...,
+#         	"Họ tên bố": ...,
+#         	"Họ tên mẹ": ...,
+#         ]
+#     },
+#     {
+#         "id": 2,
+#         "Thông tin sinh viên": [
+#         	"Họ tên": ...,
+#         	"MSSV": ...,
+#         	"Lớp": ...,
+#         	"SĐT": ...,
+#         	"Ngày sinh": ...,
+#         	"Địa chỉ hiện tại": ...
+#         ],
+#         "Thông tin gia đình": [
+#         	"Địa chỉ gia đình": ...,
+#         	"Họ tên bố": ...,
+#         	"Họ tên mẹ": ...,
+#         ]
+#     },
+# ]
 import json
 
 class Student:
