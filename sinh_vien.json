@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "Thông tin sinh viên": {
+            "Họ tên": "Hầu Nhật Ninh",
+            "MSSV": "K225480106077",
+            "Lớp": "K58KTP.K01",
+            "SĐT": "0974493002",
+            "Ngày sinh": "2003-12-20",
+            "Địa chỉ hiện tại": "Ký túc xá K1"
+        },
+        "Thông tin gia đình": {
+            "Địa chỉ gia đình": "Bách Nhẫn, Mai Trung",
+            "Họ tên bố": "Hầu Văn Nam",
+            "Họ tên mẹ": "Nguyễn Thị Lệ"
+        }
+    },
+    {
+        "id": 2,
+        "Thông tin sinh viên": {
+            "Họ tên": "Trần Thảo Mai",
+            "MSSV": "K225480106074",
+            "Lớp": "K58KTP.K01",
+            "SĐT": "0987654321",
+            "Ngày sinh": "2003-02-01",
+            "Địa chỉ hiện tại": "Ký túc xá K2"
+        },
+        "Thông tin gia đình": {
+            "Địa chỉ gia đình": "Thái Nguyên",
+            "Họ tên bố": "Trần Văn Dũng",
+            "Họ tên mẹ": "Lê Thị Dung"
+        }
+    }
+]
