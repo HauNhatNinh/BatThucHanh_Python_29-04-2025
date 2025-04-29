@@ -1,3 +1,10 @@
+# Bài 2:
+# Lấy dữ liệu từ file excel từ link: https://docs.google.com/spreadsheets/d/1e9rRiwAmRYq60Lx2PBMZcSOA8jC-rmoL/edit?usp=sharing&ouid=115874127894901285908&rtpof=true&sd=true
+
+# Hãy thực hiện lọc dữ liệu của các dữ liệu với điều kiện sau:
+# - Trường dữ liệu có cột vpv1 và pCharge khác 0, cột SOC trên 8% lưu vào trong file mới có tên: Data_new.csv
+# - Thực hiện tính tổng dữ liệu của từng hàng ppv1, ppv2, ppv3, tạo một cột mới có tên Sum_PPV và ghi kết quả vào đó.
+
 import pandas as pd
 
 # Đọc file Excel
